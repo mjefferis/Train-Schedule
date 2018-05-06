@@ -16,11 +16,6 @@ $('#yo').hide();
 $("#submit-btn").on("click", function (event) {
     event.preventDefault();
 
-    //if (name == null || name == "", destination == null || destination == "", first == null || first == "", frequency == null || frequency == "") {
-    //$("#yo").show();
-   //setTimeout(function () { $("#yo").hide(); }, 4000);
-    //}
-    //else {
     var name = $('#name-thing').val().trim();
     var destination = $('#destination-thing').val().trim();
     var first = $('#first-thing').val().trim();
@@ -42,7 +37,6 @@ $("#submit-btn").on("click", function (event) {
     $("#frequency-thing").val("");
 
 
-    //}
 });
 
 database.ref().on("child_added", function (childSnapshot, prevChildKey) {
