@@ -1,4 +1,14 @@
 # Train-Scheduler
-This app was built with Firebase, Javascript/jQuery, Bootstrap, and moment.js. The user enters train information into the app, where it is then displayed on a table. The next departure time of the train is updated in real time using moment.js. The train information users enter can be viewed across different machines as it is saved using Firebase.
+## About
+This website provides the arrival times of trains.<a href="https://mjefferis.github.io/Train-Scheduler/"> Click here for the live webpage. </a>
 
-Live: https://mjefferis.github.io/Train-Scheduler/
+## Technologies Used
+HTML/CSS/Bootstrap<br/>
+Javascript/jQuery<br/>
+Firebase<br/>
+Moment.js<br/>
+
+
+
+
+
