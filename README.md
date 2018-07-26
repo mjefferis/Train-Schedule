@@ -3,7 +3,7 @@
 ![Screenshot](sceenshot.png)
 
 ## About
-This app provides the arrival times of trains. Users enter a train name, destination, and frequency. The app then calculates the next arrival time of the train and appends all the train's data on to a table. The appended data is saved onto the app via firebase. <a href="https://mjefferis.github.io/Train-Scheduler/"> Click here for the live webpage. </a>
+This app provides the arrival times of trains. Users enter a train name, destination, and frequency. The app then calculates the next arrival time of the train and appends all the train's data on to a table using jQuery. The appended data is saved onto the app via firebase. <a href="https://mjefferis.github.io/Train-Scheduler/"> Click here for the live webpage. </a>
 
 ## Technologies Used
 HTML/CSS/Bootstrap<br/>
