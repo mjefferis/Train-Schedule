@@ -11,6 +11,41 @@ firebase.initializeApp(config);
 
 var database = firebase.database();
 
+var titleize = function(name) {
+
+  var names = name.split(" ");
+
+  // Transform to guarantee consistency
+  for (var i = 0; i < names.length; i += 1) {
+    name = names[i];
+
+    names[i] = titleCase(name.toLowerCase());
+  }
+
+  return names.join(" ");
+};
+
+// Helper function, to keep titleize nice and clean.
+function titleCase(name) {
+  return name.charAt(0).toUpperCase() + name.slice(1);
+}
+
+//function which checks to see if somethingis a number
+function isNumber(n) {
+  return !isNaN(parseFloat(n)) && isFinite(n);
+}
+
+/* if(!isNaN(miscCharge))
+{
+   //do some thing if it's a number
+}else{
+   //do some thing if it's NOT a number
+}*/
+
+/*if (militaryTime == null || !militaryTime.matches("^\\d{2}:\\d{2}$")) {
+    System.out.println(militaryTime + " is not a valid military time.");
+}*/
+
 $('#yo').hide();
 
 $("#submit-btn").on("click", function (event) {
