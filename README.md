@@ -1,6 +1,6 @@
 # Train-Scheduler
 
-![Screenshot](screenshot.png)
+![Screenshot](sceenshot.png)
 
 ## About
 This website provides the arrival times of trains. <a href="https://mjefferis.github.io/Train-Scheduler/"> Click here for the live webpage. </a>
